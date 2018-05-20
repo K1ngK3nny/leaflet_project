@@ -1,0 +1,27 @@
+#chart {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  height: 400px;
+  background-color: #c9f9ff;
+  border: 2px solid #333;
+}
+
+#theMap {
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 90%;
+  width: 80%;
+}
+
+.earthquake {
+  stroke: #333;
+  opacity: 0.75;
+}
+
+.countries {
+  fill: #e5e5e5;
+  stroke: #333;
+  stroke-linejoin: round;
+}
